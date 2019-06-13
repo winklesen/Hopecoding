@@ -34,6 +34,24 @@
     </div>
     @endforeach            
   </div>
+
+  {{-- Contact Us --}}
+  {{-- Baru frontend belum backend --}}
+  <div class="contact mt-5">
+      <h2 class="text-center font-weight-bold">Contact Us</h2>
+      <div class="row justify-content-center mb-2">
+        <div class="col-sm-6 col-md-6">
+          <label for="" class="font-weight-bold">Name</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="col-sm-6 col-md-6">
+            <label for="" class="font-weight-bold">E-Mail</label>
+            <input type="text" class="form-control">
+        </div>
+      </div>
+      <label for="" class="font-weight-bold">Message</label>
+      <textarea name="message" id="" cols="30" rows="10" class="form-control"></textarea>
+  </div>
 </div>
 
 @endsection
