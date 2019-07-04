@@ -8,6 +8,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>Hopecoding</title>
+    <link rel="shortcut icon" type="image/png" href="../storage/img/Logo.png" />
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -25,7 +26,7 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-light navbar-laravel sticky-top shadow-sm">
+        <nav class="navbar navbar-expand-md navbar-light bg-light navbar-laravel fixed-top shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     <strong>Hopecoding</strong>                    

@@ -5,8 +5,14 @@ body {
     /* width: 100%; */
 }
 
+.bg-header {
+    background: url(../storage/img/header.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 .img-card {
-    width: 35%;
+    width: 50%;
 }
 
 .social-media {
