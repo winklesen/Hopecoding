@@ -17,7 +17,7 @@
   <div class="row justify-content-center">
     @foreach ($siswa as $data)
     <div class="col-sm-3 mt-4">
-        <div class="card shadow-small">
+        <div class="card shadow-small"> 
             <div class="card-body text-center">                
                 <img src="{{ asset('storage/img/') }}{{ '/' . $data->img }}" class="img-card rounded-circle" alt="...">
                 <h5 class="font-weight-bold mt-3"><a href="{{$data->website}}">{{$data->nama}}</a></h5>
@@ -27,7 +27,7 @@
                 <span class="mt-5 social-media">
                     <a href="{{$data->portofolio}}"><i class="fa fa-id-card" aria-hidden="true"></i></a>
                     <a href="{{$data->github}}"><i class="fab fa-github" aria-hidden="true"></i></a>
-                    <a href="{{$data->website}}"><i class="fa fa-id-card" aria-hidden="true"></i></a>
+                    <a href="{{$data->website}}"><i class="fa fa-globe" aria-hidden="true"></i></a>
                 </span>
             </div>        
         </div>
